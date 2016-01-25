@@ -25,7 +25,7 @@
 	    <li>Indigo</li>
 	    <li>Violet</li>
 	</ul>
-	<img src="lab1/daisy.jpg"></img>
+	<img src="daisy.jpg"></img>
 	<p a href="lab1/index.php">link</p>
     </body>
 </html>
