@@ -2,30 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Lab1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>   
-	<h1>Hello World</h1>
+    <body>
+    <div id = "container">	   
+	<h1>Painters and their work</h1>
 	<table>
 	    <tr>
-	        <td>Row 1</td>
+	        <td>Name</td>
+	        <td>Work</td>
 	    </tr>
 	    <tr>
-	        <td>Row 2</td>
+	        <td>Salvador Dali</td>
+	        <td>Persistence of Memory</td>
+	    </tr>
+	    <tr>
+	        <td>Pablo Picasso</td>
+	        <td>Guernica</td>
 	    </tr>
 	</table>
 	<ul>
-	    <li>Red</li>
-	    <li>Orange</li>
-	    <li>Yellow</li>
-	    <li>Green</li>
-	    <li>Blue</li>
-	    <li>Indigo</li>
-	    <li>Violet</li>
+	    <li>Rembrandt</li>
+	    <li>Da Vinci</li>
+	    <li>Salvador Dali</li>
+	    <li>Campbell</li>
+	    <li>Renoir</li>
+	    <li>Rodin</li>
+	    <li>Matisse</li>
 	</ul>
-	<img src="daisy.jpg"></img>
-	<p a href="lab1/index.php">link</p>
+	<img src="clocks.png" alt="Persistence of Memory"> 
+	<p><a href="webpage.php">link</a></p>
+	   <footer>
+        <p>54/189 Leichhardt Road,<br> Spring Hill <br> QLD 4000</p>
+       </footer>
+       </div>
     </body>
 </html>
