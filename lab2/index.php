@@ -22,8 +22,8 @@
 <body>
    <div class="container">
       <div class = "row">
-         <div class="col-md-12" id="nav"><p class ="white">Social Network</p>
-            <ul>
+         <div class="col-md-12" id="nav"><p class ="white" id="logo">Social Network</p>
+            <ul id=links>
                <li class="white"><a href="">Photo</a></li>
                <li class="white"><a href="">Friends</a></li>
                <li class="white"><a href="">Login</a></li>
@@ -32,13 +32,13 @@
          <div class="col-md-3 col-sm-5" id="left"> 
             <div id="photocontainer">
                <img src="rembrandt_profile.jpg" alt="Responsive image" class="img-responsive" id="profilephoto" width="200px" height="200px">
+               <p>Hi, Rembrandt Harmenszoon van Rijn!</p>
             </div>
          </div>
          
          <div class="col-md-9 col-sm-7" id="right"> 
-            <p>Hi, Rembrandt Harmenszoon van Rijn!</html>
             <!-- posts -->
-            <div id="post">
+            <div id="posts">
                <?php foreach ($posts as $post) { ?>
                <div class="post">
                   <div class="textarea">

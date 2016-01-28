@@ -28,7 +28,7 @@ ul li {
 
 .textarea {
     padding: 10px;
-    margin-right:85px;
+    margin-right:80px;
     float: left;
 }
 
@@ -47,14 +47,17 @@ ul li {
     padding: 10px;
     padding-bottom: -10px;
     margin-bottom:10px;
+    
 }
 
-#right{
+#logo {
+    float: left;
 }
 
-#left{
+#links {
+    position: absolute;
+    right: 5px;
 }
-
 #photocontainer {
     display: block;
     margin-top: 10px;
