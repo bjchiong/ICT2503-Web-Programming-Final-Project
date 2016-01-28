@@ -1,0 +1,15 @@
+[28-Jan-2016 04:04:15 UTC] PHP Fatal error:  Call to undefined function factors() in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 19
+[28-Jan-2016 04:04:15 UTC] PHP Stack trace:
+[28-Jan-2016 04:04:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php:0
+[28-Jan-2016 04:06:43 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 12
+[28-Jan-2016 04:07:12 UTC] PHP Fatal error:  Call to undefined function factors() in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 14
+[28-Jan-2016 04:07:12 UTC] PHP Stack trace:
+[28-Jan-2016 04:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php:0
+[28-Jan-2016 04:08:12 UTC] PHP Fatal error:  Call to undefined function factors() in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 14
+[28-Jan-2016 04:08:12 UTC] PHP Stack trace:
+[28-Jan-2016 04:08:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php:0
+[28-Jan-2016 04:11:14 UTC] PHP Fatal error:  Call to undefined function factors() in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 14
+[28-Jan-2016 04:11:14 UTC] PHP Stack trace:
+[28-Jan-2016 04:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php:0
+[28-Jan-2016 04:39:27 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 30
+[28-Jan-2016 04:40:46 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/2503ict1/lab3/factorise/factorise.php on line 30
