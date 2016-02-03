@@ -18,7 +18,7 @@ Comments
         <h5>Comment/s</h5>
         
         @foreach ($comments as $comment)
-        <h5><b>{{{ $comment->author }}}</b> says '<b>{{{ $comment->message }}}</b>'{{{ $comment->id }}}</h5>
+        <h5><b>{{{ $comment->author }}}</b> says '<b>{{{ $comment->message }}}</b>'</h5>
         <a href="{{{ url("delete_comment_action/$comment->id") }}}"  class="btn btn-danger" role="button">Delete</a>
         <hr> 
         @endforeach

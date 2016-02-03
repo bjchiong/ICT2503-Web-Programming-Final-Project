@@ -192,7 +192,7 @@ a:active {
                <li class="white"><h5><a href="">Photo</a></h5></li>
                <li class="white"><h5><a href="">Friends</a></h5></li>
                <li class="white"><h5><a href="">Login</a></h5></li>
-               <li class="white"><h5><a href="">Documentation</a></h5></li>
+               <li class="white"><h5><a href="pdf/s2874131_documentation.pdf">Documentation</a></h5></li>
             </ul>
          </div>
          
