@@ -101,7 +101,7 @@ function get_item($id)
 	// If we get more than one item or no items display an error
 	if (count($items) != 1) 
 	{
-    die("Invalid query or result: $query\n");
+    die("Invalid query or result:");
   }
 
 	// Extract the first item (which should be the only item)
@@ -136,13 +136,3 @@ function update_item($id, $summary, $details)
   DB::update($sql, array($summary, $details, $id));
 }
 
-// counts the number of comments
-
-function count() 
-{
-  $sql = "select count(*) from comment where postid=?";
-
-  $size = DB::select($sql, array($postid));
-
-  return $id;
-}

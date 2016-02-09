@@ -1,0 +1,20 @@
+[07-Feb-2016 11:51:43 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ubuntu/workspace/2503ict1/Assignment2/products/app/storage/views/d732166ea37ce73a7a89ce846259126d on line 53
+[07-Feb-2016 11:51:43 UTC] PHP Stack trace:
+[07-Feb-2016 11:51:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/public/index.php:0
+[07-Feb-2016 11:51:43 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/public/index.php:49
+[07-Feb-2016 11:51:43 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:657
+[07-Feb-2016 11:51:43 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:11093
+[07-Feb-2016 11:51:43 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:8379
+[07-Feb-2016 11:51:43 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:8432
+[07-Feb-2016 11:51:43 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:7825
+[07-Feb-2016 11:51:43 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:696
+[07-Feb-2016 11:51:43 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:715
+[07-Feb-2016 11:51:43 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:5053
+[07-Feb-2016 11:51:43 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:5067
+[07-Feb-2016 11:51:43 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:5258
+[07-Feb-2016 11:51:43 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:10016
+[07-Feb-2016 11:51:43 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:10486
+[07-Feb-2016 11:51:43 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:9780
+[07-Feb-2016 11:51:43 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:9793
+[07-Feb-2016 11:51:43 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/bootstrap/compiled.php:9806
+[07-Feb-2016 11:51:43 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56

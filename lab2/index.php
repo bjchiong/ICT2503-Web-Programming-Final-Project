@@ -20,35 +20,33 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-   <div class="container">
-      <div class = "row">
-         <div class="col-md-12" id="nav"><p class ="white" id="logo">Social Network</p>
+ <div class="container">
+ 
+         <div class="col-md-12" id="nav">
+            <h4 class ="white" id="logo">Social Network</h4>
             <ul id=links>
-               <li class="white"><a href="">Photo</a></li>
-               <li class="white"><a href="">Friends</a></li>
-               <li class="white"><a href="">Login</a></li>
+               <li class="white"><h5><a href="">Photo</a></h5></li>
+               <li class="white"><h5><a href="">Friends</a></h5></li>
+               <li class="white"><h5><a href="">Login</a></h5></li>
             </ul>
          </div>
-         <div class="col-md-3 col-sm-5" id="left"> 
+      
+         <div class="col-md-4 col-sm-5" id="left"> 
             <div id="photocontainer">
-               <img src="rembrandt_profile.jpg" alt="Responsive image" class="img-responsive" id="profilephoto" width="200px" height="200px">
-               <p>Hi, Rembrandt Harmenszoon van Rijn!</p>
+               <img src="rembrandt_profile.jpg" alt="Responsive image" id="profilephoto" width="200px" height="200px">
+               <h5>Hi, Rembrandt Harmenszoon van Rijn!</h5>
             </div>
          </div>
-         
-         <div class="col-md-9 col-sm-7" id="right"> 
+         <div class="col-md-8 col-sm-7" id="right"> 
             <!-- posts -->
-            <div id="posts">
-               <?php foreach ($posts as $post) { ?>
-               <div class="post">
-                  <div class="textarea">
-                     <p><?= $post['date']?></p>
-                     <p><?= $post['message']?></p>
-                  </div>
-                  <div class="photoarea">
-                  <figure><img src="<?= $post['image'] ?>" width="200px" height="200px"></figure>
-                  </div>
+                <?php foreach ($posts as $post) { ?>
+               <div id="post">
+                     <h6><?= $post['date']?></h6>
+                     <h5><?= $post['message']?></h5>
                </div>
+               <figure><img id ="imgright" src="<?= $post['image'] ?>" width="200px" height="200px"></figure>
                <?php } ?>
-   </div><!-- /.container -->
-</body></html>
+         </div>   
+   </div>
+</body>
+</html>

@@ -16,13 +16,16 @@ Comments
 
         <hr>     
         <h5>Comment/s</h5>
-        
+        @if ($comments)       
         @foreach ($comments as $comment)
         <h5><b>{{{ $comment->author }}}</b> says '<b>{{{ $comment->message }}}</b>'</h5>
         <a href="{{{ url("delete_comment_action/$comment->id") }}}"  class="btn btn-danger" role="button">Delete</a>
         <hr> 
         @endforeach
-        
+        @else
+        <h5>Be the first to comment</h5>
+        @endif
+         
         </div>
             <!-- post form -->
       <hr>      

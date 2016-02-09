@@ -1,0 +1,329 @@
+[08-Feb-2016 10:09:41 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/ae22696f941bb5e091029660cb0f6411 on line 21
+[08-Feb-2016 10:09:41 UTC] PHP Stack trace:
+[08-Feb-2016 10:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:09:41 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:09:41 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:09:41 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:09:41 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:09:41 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:09:41 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:09:41 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:09:41 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:09:41 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:09:41 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:09:41 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:09:41 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:09:41 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:09:41 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:09:41 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:09:41 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:09:41 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 10:12:46 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/ae22696f941bb5e091029660cb0f6411 on line 20
+[08-Feb-2016 10:12:46 UTC] PHP Stack trace:
+[08-Feb-2016 10:12:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:12:46 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:12:46 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:12:46 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:12:46 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:12:46 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:12:46 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:12:46 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:12:46 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:12:46 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:12:46 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:12:46 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:12:46 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:12:46 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:12:46 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:12:46 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:12:46 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:12:46 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 10:13:12 UTC] PHP Parse error:  syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/ae22696f941bb5e091029660cb0f6411 on line 20
+[08-Feb-2016 10:13:12 UTC] PHP Stack trace:
+[08-Feb-2016 10:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:13:12 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:13:12 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:13:12 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:13:12 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:13:12 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:13:12 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:13:12 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:13:12 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:13:12 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:13:12 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:13:12 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:13:12 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:13:12 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:13:12 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:13:12 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:13:12 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:13:12 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 10:13:25 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/ae22696f941bb5e091029660cb0f6411 on line 21
+[08-Feb-2016 10:13:25 UTC] PHP Stack trace:
+[08-Feb-2016 10:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:13:25 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:13:25 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:13:25 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:13:25 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:13:25 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:13:25 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:13:25 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:13:25 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:13:25 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:13:25 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:13:25 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:13:25 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:13:25 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:13:25 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:13:25 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:13:25 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:13:25 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 10:13:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/ae22696f941bb5e091029660cb0f6411 on line 20
+[08-Feb-2016 10:13:41 UTC] PHP Stack trace:
+[08-Feb-2016 10:13:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:13:41 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:13:41 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:13:41 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:13:41 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:13:41 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:13:41 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:13:41 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:13:41 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:13:41 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:13:41 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:13:41 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:13:41 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:13:41 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:13:41 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:13:41 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:13:41 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:13:41 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 10:47:00 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 8
+[08-Feb-2016 10:47:00 UTC] PHP Stack trace:
+[08-Feb-2016 10:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 10:47:00 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 10:47:00 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 10:47:00 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 10:47:00 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 10:47:00 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 10:47:00 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 10:47:00 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 10:47:00 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 10:47:00 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 10:47:00 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5067
+[08-Feb-2016 10:47:00 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5258
+[08-Feb-2016 10:47:00 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10016
+[08-Feb-2016 10:47:00 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:10486
+[08-Feb-2016 10:47:00 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9780
+[08-Feb-2016 10:47:00 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9793
+[08-Feb-2016 10:47:00 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:9806
+[08-Feb-2016 10:47:00 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Feb-2016 12:43:57 UTC] PHP Fatal error:  Cannot access protected property User::$rules in /home/ubuntu/workspace/2503ict1/lab10/users/app/controllers/UserController.php on line 61
+[08-Feb-2016 12:43:57 UTC] PHP Stack trace:
+[08-Feb-2016 12:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 12:43:57 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 12:43:57 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 12:43:57 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 12:43:57 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 12:43:57 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 12:43:57 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 12:43:57 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 12:43:57 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 12:43:57 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 12:43:57 UTC] PHP  11. Illuminate\Routing\Route->run(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5065
+[08-Feb-2016 12:43:57 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:43:57 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:43:57 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch($route = *uninitialized*, $request = *uninitialized*, $controller = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5040
+[08-Feb-2016 12:43:57 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call($instance = *uninitialized*, $route = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5835
+[08-Feb-2016 12:43:57 UTC] PHP  16. Illuminate\Routing\Controller->callAction($method = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5847
+[08-Feb-2016 12:43:57 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:43:57 UTC] PHP  18. UserController->store() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:44:22 UTC] PHP Parse error:  syntax error, unexpected '$rules' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/2503ict1/lab10/users/app/models/User.php on line 24
+[08-Feb-2016 12:44:22 UTC] PHP Stack trace:
+[08-Feb-2016 12:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 12:44:22 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 12:44:22 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 12:44:22 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 12:44:22 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 12:44:22 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 12:44:22 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 12:44:22 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 12:44:22 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 12:44:22 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 12:44:22 UTC] PHP  11. Illuminate\Routing\Route->run(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5065
+[08-Feb-2016 12:44:22 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:44:22 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:44:22 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch($route = *uninitialized*, $request = *uninitialized*, $controller = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5040
+[08-Feb-2016 12:44:22 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call($instance = *uninitialized*, $route = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5835
+[08-Feb-2016 12:44:22 UTC] PHP  16. Illuminate\Routing\Controller->callAction($method = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5847
+[08-Feb-2016 12:44:22 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:44:22 UTC] PHP  18. UserController->store() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:44:22 UTC] PHP  19. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:61
+[08-Feb-2016 12:44:22 UTC] PHP  20. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:61
+[08-Feb-2016 12:44:22 UTC] PHP  21. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/composer/ClassLoader.php:301
+[08-Feb-2016 12:49:45 UTC] PHP Fatal error:  Call to undefined method Illuminate\Routing\Redirector::url() in /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php on line 3267
+[08-Feb-2016 12:49:45 UTC] PHP Stack trace:
+[08-Feb-2016 12:49:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[08-Feb-2016 12:49:45 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[08-Feb-2016 12:49:45 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:657
+[08-Feb-2016 12:49:45 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:11093
+[08-Feb-2016 12:49:45 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8379
+[08-Feb-2016 12:49:45 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:8432
+[08-Feb-2016 12:49:45 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:7825
+[08-Feb-2016 12:49:45 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:696
+[08-Feb-2016 12:49:45 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:715
+[08-Feb-2016 12:49:45 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5053
+[08-Feb-2016 12:49:45 UTC] PHP  11. Illuminate\Routing\Route->run(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5065
+[08-Feb-2016 12:49:45 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:49:45 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5398
+[08-Feb-2016 12:49:45 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch($route = *uninitialized*, $request = *uninitialized*, $controller = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5040
+[08-Feb-2016 12:49:45 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call($instance = *uninitialized*, $route = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5835
+[08-Feb-2016 12:49:45 UTC] PHP  16. Illuminate\Routing\Controller->callAction($method = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/bootstrap/compiled.php:5847
+[08-Feb-2016 12:49:45 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:49:45 UTC] PHP  18. UserController->store() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[08-Feb-2016 12:49:45 UTC] PHP  19. Illuminate\Support\Facades\Redirect::url(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/app/controllers/UserController.php:68
+[08-Feb-2016 12:49:45 UTC] PHP  20. Illuminate\Support\Facades\Facade::__callStatic($method = *uninitialized*, $args = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/app/controllers/UserController.php:68
+[09-Feb-2016 02:30:51 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:30:51 UTC] PHP Stack trace:
+[09-Feb-2016 02:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:30:51 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:30:51 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:30:51 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:30:51 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:30:51 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:30:51 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:30:51 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:30:51 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:30:51 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:30:51 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:30:51 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:30:51 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:30:51 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:30:51 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:30:51 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:30:51 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:30:51 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:31:44 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:31:44 UTC] PHP Stack trace:
+[09-Feb-2016 02:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:31:44 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:31:44 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:31:44 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:31:44 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:31:44 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:31:44 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:31:44 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:31:44 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:31:44 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:31:44 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:31:44 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:31:44 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:31:44 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:31:44 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:31:44 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:31:44 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:31:44 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:31:51 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:31:51 UTC] PHP Stack trace:
+[09-Feb-2016 02:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:31:51 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:31:51 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:31:51 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:31:51 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:31:51 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:31:51 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:31:51 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:31:51 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:31:51 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:31:51 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:31:51 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:31:51 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:31:51 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:31:51 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:31:51 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:31:51 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:31:51 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:33:44 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:33:44 UTC] PHP Stack trace:
+[09-Feb-2016 02:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:33:44 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:33:44 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:33:44 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:33:44 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:33:44 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:33:44 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:33:44 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:33:44 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:33:44 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:33:44 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:33:44 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:33:44 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:33:44 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:33:44 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:33:44 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:33:44 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:33:44 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:33:55 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:33:55 UTC] PHP Stack trace:
+[09-Feb-2016 02:33:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:33:55 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:33:55 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:33:55 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:33:55 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:33:55 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:33:55 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:33:55 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:33:55 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:33:55 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:33:55 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:33:55 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:33:55 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:33:55 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:33:55 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:33:55 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:33:55 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:33:55 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:33:57 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/2503ict1/lab10/users/app/storage/views/3982781bf258878f1eb00e820da56f71 on line 19
+[09-Feb-2016 02:33:57 UTC] PHP Stack trace:
+[09-Feb-2016 02:33:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:33:57 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:33:57 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:33:57 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:33:57 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:33:57 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:33:57 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:33:57 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:33:57 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:33:57 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:33:57 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1036
+[09-Feb-2016 02:33:57 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1501
+[09-Feb-2016 02:33:57 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:202
+[09-Feb-2016 02:33:57 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Http/Response.php:43
+[09-Feb-2016 02:33:57 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:78
+[09-Feb-2016 02:33:57 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:109
+[09-Feb-2016 02:33:57 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/View.php:140
+[09-Feb-2016 02:33:57 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[09-Feb-2016 02:52:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/2503ict1/lab10/users/app/controllers/UserController.php on line 41
+[09-Feb-2016 02:52:29 UTC] PHP Stack trace:
+[09-Feb-2016 02:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:0
+[09-Feb-2016 02:52:29 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/2503ict1/lab10/users/public/index.php:49
+[09-Feb-2016 02:52:29 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[09-Feb-2016 02:52:29 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[09-Feb-2016 02:52:29 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[09-Feb-2016 02:52:29 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[09-Feb-2016 02:52:29 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[09-Feb-2016 02:52:29 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[09-Feb-2016 02:52:29 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[09-Feb-2016 02:52:29 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[09-Feb-2016 02:52:29 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[09-Feb-2016 02:52:29 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[09-Feb-2016 02:52:29 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[09-Feb-2016 02:52:29 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[09-Feb-2016 02:52:29 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:51
+[09-Feb-2016 02:52:29 UTC] PHP  16. Illuminate\Foundation\Application->make() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:78
+[09-Feb-2016 02:52:29 UTC] PHP  17. Illuminate\Container\Container->make() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:462
+[09-Feb-2016 02:52:29 UTC] PHP  18. Illuminate\Container\Container->build() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Container/Container.php:428
+[09-Feb-2016 02:52:29 UTC] PHP  19. ReflectionClass->__construct() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[09-Feb-2016 02:52:29 UTC] PHP  20. spl_autoload_call() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[09-Feb-2016 02:52:29 UTC] PHP  21. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[09-Feb-2016 02:52:29 UTC] PHP  22. Composer\Autoload\includeFile() /home/ubuntu/workspace/2503ict1/lab10/users/vendor/composer/ClassLoader.php:301

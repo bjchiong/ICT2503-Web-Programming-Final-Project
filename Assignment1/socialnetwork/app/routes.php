@@ -17,39 +17,21 @@ require "models/posts.php";
 Route::get('/', function()
 {
   
-    $posts = getPosts1();
-    $size = getSize();
+  $posts = getPosts1();
+  $sizes = getSizes();
     
-	return View::make('sub.snpage')->withPosts($posts)->withSize($size);
+	return View::make('sub.snpage')->withPosts($posts)->withSizes($sizes);
 });
-
-Route::get('commentspage', function()
-{
-    $comments = getComments();
-    
-	return View::make('sub.commentspage')->withComments($comments);
-});
-
-// loads comments page
-//Route::get('commentspage', function()
-//{
-    
-//	return View::make('sub.commentspage');
-//});
-
-//route comment
 
 
 Route::get('/{id}', function($id)
 {
   $post = get_post($id);
-   $comments = getComments($id);  
+  $comments = getComments($id);  
+  
 	return View::make('sub.commentspage')->withPost($post)->withComments($comments);
 });
 
-//loads edit page
-
-// Post route
 
 Route::post('add_post_action', function()
 {
@@ -70,18 +52,6 @@ Route::post('add_post_action', function()
   }
 });
 
-Route::post('add_comment_action', function()
-{
-  $postid = Input::get('id');
-  $author = Input::get('author');
-  $message = Input::get('message');
-  $id = add_comment($postid, $author, $message);
-
-  // If successfully created then display newly created item
-
-    return Redirect::to(url("sub.commentspage"));
-});
-
 
 // loads edit page
 Route::get('editpage/{id}', function($id)
@@ -91,6 +61,7 @@ Route::get('editpage/{id}', function($id)
 	return View::make('sub.editpage')->withPost($post);
 });
 
+// Add a post
 
 Route::post('update_post_action', function()
 {
@@ -105,7 +76,7 @@ Route::post('update_post_action', function()
  
 });
 
-// Delete route
+// Delete Post
 
 Route::get('delete_post_action/{id}', function($id)
 {
@@ -115,26 +86,32 @@ Route::get('delete_post_action/{id}', function($id)
    return Redirect::to(secure_url("/"));
 });
 
-// delete post
+// Delete comment
 Route::get('delete_comment_action/{id}', function($id)
 {
    $deleted = delete_comment($id); 
-   
-// If successfully delete then display newly created item
-   return Redirect::to(url("sub.commentspage"));
+   $postid = Input::get('id');
+   return Redirect::to(secure_url("/"));
 });
 
-function getSize() {
-  $posts =  getPosts();
-  $size = count($posts);
-  return $size;
-}
+// Add comment
+Route::post('add_comment_action', function()
+{
+  $postid = Input::get('id');
+  $author = Input::get('author');
+  $message = Input::get('message');
+  $id = add_comment($postid, $author, $message);
 
-//function getSize1($id) {
-//  $sql = "select count(*) from comment where postid=i?";
-//  $size = DB::select($sql, array($id));
-//  return $size;
-//}
+
+    return Redirect::to(url("/$postid"));
+});
+
+
+function getSizes() {
+  $sql = "select COUNT(*) as id from comment c GROUP BY postid";
+  $sizes = DB::select($sql);
+  return $sizes;
+}
 
 
 function getPosts1() {

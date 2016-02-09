@@ -25,33 +25,7 @@ function search($formdata) {
 	}
 	$pms = $results;
     } 
-/*
-    // Filter $pms by $year
-    if (!empty($formdata)) {
-	$results = array();
-	foreach ($pms as $pm) {
-	    if (strpos($pm['from'], $formdata) !== FALSE || 
-	        strpos($pm['to'], $formdata) !== FALSE) {
-		$results[] = $pm;
-	    }
-	}
-	$pms = $results;
-    } 
-    
-    else
 
-    // Filter $pms by $state
-    if (!empty($formdata)) {
-	$results = array();
-	foreach ($pms as $pm) {
-	    if (stripos($pm['state'], $formdata) !== FALSE) {
-		$results[] = $pm;
-	    }
-	}
-	
-	$pms = $results;
-    }
-  */  
     return $pms;
 }
 ?>

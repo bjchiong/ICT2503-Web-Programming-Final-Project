@@ -38,7 +38,11 @@ Social Network
       <hr>
             <!-- posts -->
           {{--  @for ($i = $size - 1; $i >= 0; $i--) --}}
+          @foreach ($sizes as $size)
+          <h5>comments({{{ $size->id }}})</h5>
+          @endforeach
                @foreach ($posts as $post)
+                
                <div id="post">
                   <div class = "bar" value="{{{ $post->id }}}">
                      <p class ="white" id = "date">{{{ $post->title }}}</p>
@@ -50,7 +54,7 @@ Social Network
                      <a href="{{{ url("editpage/$post->id") }}}"  class="btn btn-primary" role="button">Edit</a>
                      <a href="{{{ url("delete_post_action/$post->id") }}}"  class="btn btn-danger" role="button">Delete</a>
                      <hr>
-                     <h5 id = "positivelink"><a href="{{{ url("/$post->id") }}}" >View Comments(3) </a></h5>
+                     <h5 id = "positivelink"><a href="{{{ url("/$post->id") }}}" >View Comments(1) </a></h5>
                </div>
              @endforeach
     </div>         

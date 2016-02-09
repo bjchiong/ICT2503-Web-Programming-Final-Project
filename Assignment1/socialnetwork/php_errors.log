@@ -373,3 +373,507 @@ Stack trace:
 [03-Feb-2016 16:55:50 UTC] PHP  10. Illuminate\Foundation\Application->fireAppCallbacks($callbacks = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:641
 [03-Feb-2016 16:55:50 UTC] PHP  11. call_user_func:{/home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:736}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:736
 [03-Feb-2016 16:55:50 UTC] PHP  12. {closure:/home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/Foundation/start.php:223-271}(*uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:736
+[05-Feb-2016 09:18:06 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 25
+[05-Feb-2016 09:18:06 UTC] PHP Stack trace:
+[05-Feb-2016 09:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:18:06 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:18:06 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:18:06 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:18:06 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:18:06 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:18:06 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:18:06 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:18:06 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:18:06 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:18:06 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:18:06 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:18:06 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:18:06 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:18:06 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:18:06 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:18:06 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:18:06 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 09:29:02 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 20
+[05-Feb-2016 09:29:02 UTC] PHP Stack trace:
+[05-Feb-2016 09:29:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:29:02 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:29:02 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:29:02 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:29:02 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:29:02 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:29:02 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:29:02 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:29:02 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:29:02 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:29:02 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:29:02 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:29:02 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:29:02 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:29:02 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:29:02 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:29:02 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:29:02 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 09:33:37 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 21
+[05-Feb-2016 09:33:37 UTC] PHP Stack trace:
+[05-Feb-2016 09:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:33:37 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:33:37 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:33:37 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:33:37 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:33:37 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:33:37 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:33:37 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:33:37 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:33:37 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:33:37 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:33:37 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:33:37 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:33:37 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:33:37 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:33:37 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:33:37 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:33:37 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 09:57:16 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 20
+[05-Feb-2016 09:57:16 UTC] PHP Stack trace:
+[05-Feb-2016 09:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:57:16 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:57:16 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:57:16 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:57:16 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:57:16 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:57:16 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:57:16 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:57:16 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:57:16 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:57:16 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:57:16 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:57:16 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:57:16 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:57:16 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:57:16 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:57:16 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:57:16 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 09:57:43 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 20
+[05-Feb-2016 09:57:43 UTC] PHP Stack trace:
+[05-Feb-2016 09:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:57:43 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:57:43 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:57:43 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:57:43 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:57:43 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:57:43 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:57:43 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:57:43 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:57:43 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:57:43 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:57:43 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:57:43 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:57:43 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:57:43 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:57:43 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:57:43 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:57:43 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 09:58:26 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/0864d30d8509caf0c7257786b6c6d5f5 on line 20
+[05-Feb-2016 09:58:26 UTC] PHP Stack trace:
+[05-Feb-2016 09:58:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 09:58:26 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 09:58:26 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 09:58:26 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 09:58:26 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 09:58:26 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 09:58:26 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 09:58:26 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 09:58:26 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 09:58:26 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 09:58:26 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 09:58:26 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 09:58:26 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 09:58:26 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 09:58:26 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 09:58:26 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 09:58:26 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 09:58:26 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:34:14 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ')' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 10:34:14 UTC] PHP Stack trace:
+[05-Feb-2016 10:34:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:34:14 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:34:14 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:34:14 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:34:14 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:34:14 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:34:14 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:34:14 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:34:14 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:34:14 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:34:14 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:34:14 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:34:14 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:34:14 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:34:14 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:34:14 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:34:14 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:34:14 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:35:31 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ')' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 10:35:31 UTC] PHP Stack trace:
+[05-Feb-2016 10:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:35:31 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:35:31 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:35:31 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:35:31 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:35:31 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:35:31 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:35:31 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:35:31 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:35:31 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:35:31 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:35:31 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:35:31 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:35:31 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:35:31 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:35:31 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:35:31 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:35:31 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:35:39 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ')' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 10:35:39 UTC] PHP Stack trace:
+[05-Feb-2016 10:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:35:39 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:35:39 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:35:39 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:35:39 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:35:39 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:35:39 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:35:39 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:35:39 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:35:39 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:35:39 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:35:39 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:35:39 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:35:39 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:35:39 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:35:39 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:35:39 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:35:39 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:46:52 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 41
+[05-Feb-2016 10:46:52 UTC] PHP Stack trace:
+[05-Feb-2016 10:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:46:52 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:46:52 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:46:52 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:46:52 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:46:52 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:46:52 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:46:52 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:46:52 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:46:52 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:46:52 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:46:52 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:46:52 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:46:52 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:46:52 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:46:52 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:46:52 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:46:52 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:49:19 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 52
+[05-Feb-2016 10:49:19 UTC] PHP Stack trace:
+[05-Feb-2016 10:49:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:49:19 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:49:19 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:49:19 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:49:19 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:49:19 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:49:19 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:49:19 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:49:19 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:49:19 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:49:19 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:49:19 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:49:19 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:49:19 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:49:19 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:49:19 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:49:19 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:49:19 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:49:37 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 52
+[05-Feb-2016 10:49:37 UTC] PHP Stack trace:
+[05-Feb-2016 10:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:49:37 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:49:37 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:49:37 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:49:37 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:49:37 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:49:37 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:49:37 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:49:37 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:49:37 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:49:37 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:49:37 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:49:37 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:49:37 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:49:37 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:49:37 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:49:37 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:49:37 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:55:07 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 52
+[05-Feb-2016 10:55:07 UTC] PHP Stack trace:
+[05-Feb-2016 10:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:55:07 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:55:07 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:55:07 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:55:07 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:55:07 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:55:07 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:55:07 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:55:07 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:55:07 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:55:07 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:55:07 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:55:07 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:55:07 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:55:07 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:55:07 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:55:07 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:55:07 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 10:55:38 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 52
+[05-Feb-2016 10:55:38 UTC] PHP Stack trace:
+[05-Feb-2016 10:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 10:55:38 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 10:55:38 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 10:55:38 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 10:55:38 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 10:55:38 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 10:55:38 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 10:55:38 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 10:55:38 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 10:55:38 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 10:55:38 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 10:55:38 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 10:55:38 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 10:55:38 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 10:55:38 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 10:55:38 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 10:55:38 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 10:55:38 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:07:37 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 11:07:37 UTC] PHP Stack trace:
+[05-Feb-2016 11:07:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:07:37 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:07:37 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:07:37 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:07:37 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:07:37 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:07:37 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:07:37 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:07:37 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:07:37 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:07:37 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:07:37 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:07:37 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:07:37 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:07:37 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:07:37 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:07:37 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:07:37 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:07:52 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 11:07:52 UTC] PHP Stack trace:
+[05-Feb-2016 11:07:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:07:52 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:07:52 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:07:52 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:07:52 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:07:52 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:07:52 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:07:52 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:07:52 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:07:52 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:07:52 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:07:52 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:07:52 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:07:52 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:07:52 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:07:52 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:07:52 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:07:52 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:09:15 UTC] PHP Fatal error:  Call to undefined method stdClass::count() in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 11:09:15 UTC] PHP Stack trace:
+[05-Feb-2016 11:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:09:15 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:09:15 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:09:15 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:09:15 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:09:15 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:09:15 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:09:15 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:09:15 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:09:15 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:09:15 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:09:15 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:09:15 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:09:15 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:09:15 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:09:15 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:09:15 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:09:15 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:09:15 UTC] PHP  19. include() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9923
+[05-Feb-2016 11:09:19 UTC] PHP Fatal error:  Call to undefined method stdClass::count() in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 11:09:19 UTC] PHP Stack trace:
+[05-Feb-2016 11:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:09:19 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:09:19 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:09:19 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:09:19 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:09:19 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:09:19 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:09:19 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:09:19 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:09:19 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:09:19 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:09:19 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:09:19 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:09:19 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:09:19 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:09:19 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:09:19 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:09:19 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:09:19 UTC] PHP  19. include() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9923
+[05-Feb-2016 11:09:23 UTC] PHP Fatal error:  Call to undefined method stdClass::count() in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 39
+[05-Feb-2016 11:09:23 UTC] PHP Stack trace:
+[05-Feb-2016 11:09:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:09:23 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:09:23 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:09:23 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:09:23 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:09:23 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:09:23 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:09:23 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:09:23 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:09:23 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:09:23 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:09:23 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:09:23 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:09:23 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:09:23 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:09:23 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:09:23 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:09:23 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:09:23 UTC] PHP  19. include() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9923
+[05-Feb-2016 11:11:33 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 40
+[05-Feb-2016 11:11:33 UTC] PHP Stack trace:
+[05-Feb-2016 11:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:11:33 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:11:33 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:11:33 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:11:33 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:11:33 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:11:33 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:11:33 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:11:33 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:11:33 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:11:33 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:11:33 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:11:33 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:11:33 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:11:33 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:11:33 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:11:33 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:11:33 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:11:42 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 40
+[05-Feb-2016 11:11:42 UTC] PHP Stack trace:
+[05-Feb-2016 11:11:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:11:42 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:11:42 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:11:42 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:11:42 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:11:42 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:11:42 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:11:42 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:11:42 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:11:42 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:11:42 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:11:42 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:11:42 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:11:42 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:11:42 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:11:42 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:11:42 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:11:42 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:15:34 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 40
+[05-Feb-2016 11:15:34 UTC] PHP Stack trace:
+[05-Feb-2016 11:15:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:15:34 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:15:34 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:15:34 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:15:34 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:15:34 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:15:34 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:15:34 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:15:34 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:15:34 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:15:34 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:15:34 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:15:34 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:15:34 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:15:34 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:15:34 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:15:34 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:15:34 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:25:18 UTC] PHP Parse error:  syntax error, unexpected '$sizes' (T_VARIABLE), expecting ')' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 42
+[05-Feb-2016 11:25:18 UTC] PHP Stack trace:
+[05-Feb-2016 11:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:25:18 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:25:18 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:25:18 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:25:18 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:25:18 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:25:18 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:25:18 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:25:18 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:25:18 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:25:18 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:25:18 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:25:18 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:25:18 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:25:18 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:25:18 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:25:18 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:25:18 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:25:30 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ')' in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 42
+[05-Feb-2016 11:25:30 UTC] PHP Stack trace:
+[05-Feb-2016 11:25:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:25:30 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:25:30 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:25:30 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:25:30 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:25:30 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:25:30 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:25:30 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:25:30 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:25:30 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:25:30 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:25:30 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:25:30 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:25:30 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:25:30 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:25:30 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:25:30 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:25:30 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:41:28 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/app/storage/views/c850e5a531e34ee68ad3601580a13c66 on line 40
+[05-Feb-2016 11:41:28 UTC] PHP Stack trace:
+[05-Feb-2016 11:41:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:0
+[05-Feb-2016 11:41:28 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/public/index.php:49
+[05-Feb-2016 11:41:28 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:657
+[05-Feb-2016 11:41:28 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:11088
+[05-Feb-2016 11:41:28 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8379
+[05-Feb-2016 11:41:28 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:8432
+[05-Feb-2016 11:41:28 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:7825
+[05-Feb-2016 11:41:28 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:696
+[05-Feb-2016 11:41:28 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:715
+[05-Feb-2016 11:41:28 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5053
+[05-Feb-2016 11:41:28 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse($request = *uninitialized*, $response = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5067
+[05-Feb-2016 11:41:28 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct($content = *uninitialized*, $status = *uninitialized*, $headers = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:5258
+[05-Feb-2016 11:41:28 UTC] PHP  13. Illuminate\Http\Response->setContent($content = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10011
+[05-Feb-2016 11:41:28 UTC] PHP  14. Illuminate\View\View->render($callback = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:10481
+[05-Feb-2016 11:41:28 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9779
+[05-Feb-2016 11:41:28 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9788
+[05-Feb-2016 11:41:28 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get($path = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9801
+[05-Feb-2016 11:41:28 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath($__path = *uninitialized*, $__data = *uninitialized*) /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Feb-2016 11:41:28 UTC] PHP  19. include() /home/ubuntu/workspace/2503ict1/Assignment1/socialnetwork/bootstrap/compiled.php:9923

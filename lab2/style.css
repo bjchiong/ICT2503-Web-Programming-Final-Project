@@ -3,6 +3,10 @@ p {
     font-size: 14pt;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: arial, helvetica, sans-serif;
+}
+
 .white {
     color: white;
 }
@@ -19,35 +23,28 @@ ul li {
     margin-right: 10px;
 }
 
-.post {
-    margin-left: 50px;
-    margin-bottom: 50px;
-    width: 60%;
-    background-color: #d9d9d9;
-}
-
 .textarea {
     padding: 10px;
-    margin-right:80px;
-    float: left;
 }
 
-.photoarea {
-    position: relative;
-    right: 20px;   
-}
-
-.photoarea.figure {
-    position: relative;
-    right: 20px; 
-}
 
 #nav {
     background-color:black;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+#post {
+    margin-bottom: 30px;
     padding: 10px;
-    padding-bottom: -10px;
-    margin-bottom:10px;
-    
+    width: 45%;
+    height: 200px;
+    background-color: #d9d9d9;
+    float:left;
+}
+
+#right {
+    margin-top: 10px;
 }
 
 #logo {
@@ -58,12 +55,12 @@ ul li {
     position: absolute;
     right: 5px;
 }
+
 #photocontainer {
     display: block;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: auto;
     margin-right: auto;
-
 }
 
 #profilephoto {
@@ -71,3 +68,6 @@ ul li {
     height: 200px;
 }
 
+#imgright {
+    margin-bottom: 50px;    
+}

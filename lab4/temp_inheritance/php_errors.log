@@ -1,0 +1,46 @@
+[30-Jan-2016 02:19:45 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/app/models/posts.php on line 6
+[30-Jan-2016 02:19:45 UTC] PHP Stack trace:
+[30-Jan-2016 02:19:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:0
+[30-Jan-2016 02:19:45 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:49
+[30-Jan-2016 02:19:45 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:657
+[30-Jan-2016 02:19:45 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:11088
+[30-Jan-2016 02:19:45 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:8379
+[30-Jan-2016 02:19:45 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:8432
+[30-Jan-2016 02:19:45 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:7825
+[30-Jan-2016 02:19:45 UTC] PHP   8. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:695
+[30-Jan-2016 02:19:45 UTC] PHP   9. Illuminate\Foundation\Application->bootApplication() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:635
+[30-Jan-2016 02:19:45 UTC] PHP  10. Illuminate\Foundation\Application->fireAppCallbacks($callbacks = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:641
+[30-Jan-2016 02:19:45 UTC] PHP  11. call_user_func:{/home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:736}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:736
+[30-Jan-2016 02:19:45 UTC] PHP  12. {closure:/home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/start.php:223-271}(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:736
+[30-Jan-2016 02:19:45 UTC] PHP  13. require() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/start.php:269
+[30-Jan-2016 03:37:17 UTC] PHP Fatal error:  Call to undefined function getPost() in /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/app/routes.php on line 18
+[30-Jan-2016 03:37:17 UTC] PHP Stack trace:
+[30-Jan-2016 03:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:0
+[30-Jan-2016 03:37:17 UTC] PHP   2. Illuminate\Foundation\Application->run($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:49
+[30-Jan-2016 03:37:17 UTC] PHP   3. Stack\StackedHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:657
+[30-Jan-2016 03:37:17 UTC] PHP   4. Illuminate\Cookie\Guard->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:11088
+[30-Jan-2016 03:37:17 UTC] PHP   5. Illuminate\Cookie\Queue->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:8379
+[30-Jan-2016 03:37:17 UTC] PHP   6. Illuminate\Session\Middleware->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:8432
+[30-Jan-2016 03:37:17 UTC] PHP   7. Illuminate\Foundation\Application->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:7825
+[30-Jan-2016 03:37:17 UTC] PHP   8. Illuminate\Foundation\Application->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:696
+[30-Jan-2016 03:37:17 UTC] PHP   9. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:715
+[30-Jan-2016 03:37:17 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:5053
+[30-Jan-2016 03:37:17 UTC] PHP  11. Illuminate\Routing\Route->run(*uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:5065
+[30-Jan-2016 03:37:17 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:5398}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:5398
+[30-Jan-2016 03:37:17 UTC] PHP  13. {closure:/home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/app/routes.php:16-20}() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/compiled.php:5398
+[01-Feb-2016 03:01:20 UTC] PHP Fatal error:  Class 'Way\Generators\GeneratorsServiceProvider' not found in /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 157
+[01-Feb-2016 03:01:20 UTC] PHP Stack trace:
+[01-Feb-2016 03:01:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:0
+[01-Feb-2016 03:01:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:35
+[01-Feb-2016 03:01:20 UTC] PHP   3. require() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/start.php:60
+[01-Feb-2016 03:01:20 UTC] PHP   4. Illuminate\Foundation\ProviderRepository->load($app = *uninitialized*, $providers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/start.php:210
+[01-Feb-2016 03:01:20 UTC] PHP   5. Illuminate\Foundation\ProviderRepository->compileManifest($app = *uninitialized*, $providers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:57
+[01-Feb-2016 03:01:20 UTC] PHP   6. Illuminate\Foundation\ProviderRepository->createProvider($app = *uninitialized*, $provider = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:121
+[01-Feb-2016 03:01:51 UTC] PHP Fatal error:  Class 'Way\Generators\GeneratorsServiceProvider' not found in /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 157
+[01-Feb-2016 03:01:51 UTC] PHP Stack trace:
+[01-Feb-2016 03:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:0
+[01-Feb-2016 03:01:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/public/index.php:35
+[01-Feb-2016 03:01:51 UTC] PHP   3. require() /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/bootstrap/start.php:60
+[01-Feb-2016 03:01:51 UTC] PHP   4. Illuminate\Foundation\ProviderRepository->load($app = *uninitialized*, $providers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/start.php:210
+[01-Feb-2016 03:01:51 UTC] PHP   5. Illuminate\Foundation\ProviderRepository->compileManifest($app = *uninitialized*, $providers = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:57
+[01-Feb-2016 03:01:51 UTC] PHP   6. Illuminate\Foundation\ProviderRepository->createProvider($app = *uninitialized*, $provider = *uninitialized*) /home/ubuntu/workspace/2503ict1/lab4/temp_inheritance/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:121
