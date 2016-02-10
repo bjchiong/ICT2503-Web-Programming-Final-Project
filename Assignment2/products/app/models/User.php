@@ -8,7 +8,13 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait;
+	
+	function users() {
+		
+		return $this->belongsToMany('User', 'friends','user_id', 'friend_id');
+	}
 
+ 
 	/**
 	 * The database table used by the model.
 	 *

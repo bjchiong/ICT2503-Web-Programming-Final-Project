@@ -17,8 +17,10 @@ class CreatePostsTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('name');
+			$table->integer('user_id'); // foreign key user_id is id in User
 			$table->string('title');
 			$table->string('message');
+			$table->string('privacy');
 			$table->timestamps();
 			
 		});	

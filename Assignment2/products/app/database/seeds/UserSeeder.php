@@ -9,7 +9,6 @@ class UserSeeder extends Seeder {
 		$user->password = $encrypted;
 		$user->fullname = 'John';
 		$user->birthday = '16/6/16';
-		$user->profile_img = 'profile.png';
         $user->save();
     }
 }

@@ -142,3 +142,94 @@
 [07-Feb-2016 13:28:55 UTC] PHP  15. ReflectionClass->__construct() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
 [07-Feb-2016 13:28:55 UTC] PHP  16. spl_autoload_call() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
 [07-Feb-2016 13:28:55 UTC] PHP  17. Illuminate\Support\ClassLoader::load() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[09-Feb-2016 04:46:28 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 04:46:28 UTC] PHP Stack trace:
+[09-Feb-2016 04:46:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 04:46:28 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 04:46:28 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 04:46:28 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 04:46:28 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 04:46:28 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 04:46:28 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 04:46:28 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 04:46:28 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 04:46:28 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 04:46:28 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 04:56:12 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 04:56:12 UTC] PHP Stack trace:
+[09-Feb-2016 04:56:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 04:56:12 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 04:56:12 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 04:56:12 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 04:56:12 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 04:56:12 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 04:56:12 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 04:56:12 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 04:56:12 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 04:56:12 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 04:56:12 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 05:06:00 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 05:06:00 UTC] PHP Stack trace:
+[09-Feb-2016 05:06:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 05:06:00 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 05:06:00 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 05:06:00 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 05:06:00 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 05:06:00 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 05:06:00 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 05:06:00 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 05:06:00 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 05:06:00 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 05:06:00 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 05:11:35 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 05:11:35 UTC] PHP Stack trace:
+[09-Feb-2016 05:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 05:11:35 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 05:11:35 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 05:11:35 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 05:11:35 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 05:11:35 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 05:11:35 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 05:11:35 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 05:11:35 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 05:11:35 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 05:11:35 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 05:23:34 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 05:23:34 UTC] PHP Stack trace:
+[09-Feb-2016 05:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 05:23:34 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 05:23:34 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 05:23:34 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 05:23:34 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 05:23:34 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 05:23:34 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 05:23:34 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 05:23:34 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 05:23:34 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 05:23:34 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 05:27:24 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 05:27:24 UTC] PHP Stack trace:
+[09-Feb-2016 05:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 05:27:24 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 05:27:24 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 05:27:24 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 05:27:24 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 05:27:24 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 05:27:24 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 05:27:24 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 05:27:24 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 05:27:24 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 05:27:24 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192
+[09-Feb-2016 05:29:09 UTC] PHP Fatal error:  Class 'CreateProductsTable' not found in /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[09-Feb-2016 05:29:09 UTC] PHP Stack trace:
+[09-Feb-2016 05:29:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:0
+[09-Feb-2016 05:29:09 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/artisan:59
+[09-Feb-2016 05:29:09 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[09-Feb-2016 05:29:09 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[09-Feb-2016 05:29:09 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[09-Feb-2016 05:29:09 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[09-Feb-2016 05:29:09 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[09-Feb-2016 05:29:09 UTC] PHP   8. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[09-Feb-2016 05:29:09 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->rollback() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:61
+[09-Feb-2016 05:29:09 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:172
+[09-Feb-2016 05:29:09 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/2503ict1/Assignment2/products/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:192

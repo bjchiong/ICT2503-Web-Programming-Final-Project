@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('PostSeeder');
 		$this->call('CommentSeeder');
 		$this->call('UserSeeder');
+//		$this->call('FriendSeeder');
 	}
 
 }

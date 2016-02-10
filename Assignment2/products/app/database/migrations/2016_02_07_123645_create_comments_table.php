@@ -18,7 +18,7 @@ class CreateCommentsTable extends Migration {
 			$table->increments('id');
 			$table->string('name');
 			$table->string('message');
-			$table->integer('post_id');
+			$table->integer('post_id'); // foreign key post_id is id in Post
 			$table->timestamps();
 			
 		});				
