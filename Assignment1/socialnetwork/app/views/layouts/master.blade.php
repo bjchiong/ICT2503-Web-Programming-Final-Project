@@ -64,6 +64,10 @@ ul li {
     clear:both;
 }
 
+#addcomment {
+    clear:both;
+}
+
 #profilebar {
     margin: 0px -15px 0 -15px;
     padding: 8px;
@@ -109,7 +113,7 @@ ul li {
     height: 100%;
     border: solid 1px #d9d9d9;
     background-color: white;
-    float:left;
+    float:left; 
 }
 
 #commentarea {
