@@ -31,17 +31,17 @@ Social Network
     {{ Form::open(array('action' => 'PostController@store')) }}  
     {{ Form::label('name', 'Name') }}
     {{ Form::text('name') }}
-    {{-- $errors->first('name') --}}
+    {{ $errors->first('name') }}
     <br>
     <br>
     {{ Form::label('title', 'Title') }}
     {{ Form::text('title') }}
-    {{-- $errors->first('price') --}}
+    {{ $errors->first('title') }}
     <br>   
     <br>   
     {{ Form::label('message', 'Message') }}
     {{ Form::textarea('message', null, array('class' => 'form-control', 'rows' => '3')) }}
-    {{-- $errors->first('message') --}}
+    {{ $errors->first('message') }}
     <br>
     {{ Form::label('privacy', 'Posting options:') }}
     <br>
@@ -59,29 +59,28 @@ Social Network
     <br>
     <br>
     {{ Form::close() }}   
-            <!-- posts -->
-               @foreach ($posts as $post)
-               <div id="post">
-                  <div class = "bar" value="{{{-- $post->id --}}}">
-                     <p class ="white" id = "date">{{{ $post->title }}}</p>
-                  </div>   
-                     <figure><img id ="imgright" class="img-circle" src="image/profilepic.jpeg" width="100px" height="100px"></figure>
-                     <h4><br>{{{ $post->message }}}</h4>
-                     <h5>Post by {{{ $post->name }}}</h5>
-                     <br>
-                     {{ link_to_route('post.edit', 'Edit', array($post->id), array('class' => 'btn btn-primary')) }}    
+    <!-- posts -->
+    @foreach ($posts as $post)
+        <div id="post">
+            <div class = "bar" value="{{{-- $post->id --}}}">
+                <p class ="white" id = "date">{{{ $post->title }}}</p>
+                 </div>   
+                <figure><img id ="imgright" class="img-circle" src="image/profilepic.jpeg" width="100px" height="100px"></figure>
+                    <h4><br>{{{ $post->message }}}</h4>
+                    <h5>Post by {{{ $post->name }}}</h5>
                     <br>
-                        {{ Form::open(array('method' => 'Delete', 'route' =>
+                    {{ link_to_route('post.edit', 'Edit', array($post->id), array('class' => 'btn btn-primary')) }}    
+                    <br>
+                    {{ Form::open(array('method' => 'Delete', 'route' =>
                         array('post.destroy', $post->id))) }}
-                        <br> 
-                        {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
+                    <br> 
+                    {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
                         {{ Form::close() }}     
-                     <hr>
-                     
-               {{--      <h5 id = "positivelink"><a href="{{{ url("/$post->id") }}}">View Comments ({{{ $total }}}) </a></h5> --}}
+                    <hr>
                  <h5 id = "positivelink"> {{ link_to_route('comment.show', 'View Comments', array($post->id)) }} </h5>
                </div>
-             @endforeach 
+             @endforeach
+            {{ $posts->links() }} 
     </div>         
 
 @stop

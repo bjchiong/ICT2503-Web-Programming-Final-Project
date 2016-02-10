@@ -14,22 +14,22 @@ Create Account
     {{ Form::open(array('action' => 'UserController@store')) }} 
     {{ Form::label('email', 'Email') }}
     {{ Form::email('email') }}
-    {{-- $errors->first('name') --}}
+    {{ $errors->first('email') }}
     <br>   
     <br>   
     {{ Form::label('password', 'Password') }}
     {{ Form::password('password') }}
-    {{-- $errors->first('message') --}}
+    {{ $errors->first('password') }}
     <br>
     <br> 
     {{ Form::label('fullname', 'Full name') }}
     {{ Form::text('fullname') }}
-    {{-- $errors->first('message') --}}
+    {{ $errors->first('fullname') }}
     <br>
     <br> 
     {{ Form::label('birthday', 'Date of Birth') }}
     {{ Form::text('birthday') }}
-    {{-- $errors->first('message') --}}
+    {{ $errors->first('birthday') }}
     <br> 
     <br> 
     {{ Form::submit('Sign up', array('class' => 'btn btn-primary btn-sm')) }}

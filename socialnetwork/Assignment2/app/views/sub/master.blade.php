@@ -212,13 +212,10 @@ a:active {
             <ul id=links>
               @section('nav')
               @show
-               <li class="white"><h5><a href="pdf/s2874131_documentation.pdf">Documentation</a></h5></li>
+               <li class="white"><h5><a href="2503ict_Assignment2_Documentation.pdf">Documentation</a></h5></li>
             </ul>
          </div>
-         
-
-         
-         
+        
         @section('content')
         @show
 

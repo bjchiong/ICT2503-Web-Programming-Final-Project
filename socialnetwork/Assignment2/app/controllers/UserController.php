@@ -18,7 +18,7 @@ class UserController extends \BaseController {
 	    $password = $input['password'];
 	    if (Auth::attempt(array('email' => $email, 'password' => $password))) {
 	    $id = Auth::user()->id;
-	    return Redirect::action('post.show', '$id');	
+	    return Redirect::action('post.index');	
 	    } else {
 	    Session::put('login_error', 'Login failed');
 	    return Redirect::to(URL::previous());
@@ -69,9 +69,9 @@ class UserController extends \BaseController {
 		$input = Input::all();
 		$password = $input['password'];
 		$encrypted = Hash::make($password);
-	//	$v = Validator::make($input, User::$rules);
-	//	if ($v->passes())
-	//	{
+		$v = Validator::make($input, User::$rules);
+		if ($v->passes())
+		{
 		$user = new User;
 		$user->email = $input['email'];
 		$user->password = $encrypted;
@@ -79,13 +79,12 @@ class UserController extends \BaseController {
 		$user->birthday = $input['birthday'];
 		$user->save();	
 		return Redirect::to(URL::previous());
-	//	   return Redirect::action('UserController@create');
-	//	} else {
-	//	   return Redirect::action('UserController@create')->withErrors($v);
-	//	}
+		} else {
+		   return Redirect::to(URL::previous())->withErrors($v);
+		}
 			
-	//	}
-	}
+		}
+	
 
 
 	/**
@@ -96,7 +95,9 @@ class UserController extends \BaseController {
 	 */
 	public function show($id)
 	{
-
+		$user = User::find($id);
+		$posts = Post::whereRaw('user_id = ?', array($id))->get();
+		return View::make('user.profile', compact('posts', 'user'));
 	}
 
 

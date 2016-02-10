@@ -21,6 +21,7 @@ Social Network
                   </div>   
                      <h5><b>{{{ $user->fullname }}}</b></h5>
                      <h6><br>{{{ $user->birthday }}}</h6>
+                     <h5 id = "positivelink"> {{ link_to_route('user.show', 'View Profile', array($user->id)) }} </h5>
                      <br>
                </div>
              @endforeach 

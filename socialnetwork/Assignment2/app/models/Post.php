@@ -14,7 +14,8 @@
     
     public static $rules = array( 
         'name' => 'required|min:5', 
-        'price' => 'required'
+        'title' => 'required',
+        'message' => 'required'
     );    
             
 }

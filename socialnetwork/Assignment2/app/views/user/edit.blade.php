@@ -12,10 +12,10 @@ Edit
 
 @section('content')
     <div class="col-md-9 col-sm-1" id="right"> 
-    <!-- post form -->
+
 <div id="createaccount">     
     <h3>Update your profile</h3>
-        <!-- post form -->
+    <!-- Form to update profile -->
     <hr>    
     {{ Form::model($user, array('method' => 'PUT', 'route' => array('user.update', $user->id))) }} 
     {{ Form::label('email', 'Email') }}

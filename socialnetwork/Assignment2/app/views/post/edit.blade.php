@@ -12,20 +12,20 @@ Edit
 
 @section('content')
     <div class="col-md-9 col-sm-1" id="right"> 
-    <!-- post form -->
+    <!-- Edit posts -->
     <hr>      
     <h4>Edit post<br><br></h4>
     {{ Form::model($post, array('method' => 'PUT', 'route' => array('post.update', $post->id))) }} 
     {{ Form::hidden('name', $post->name) }}
-    {{-- $errors->first('name') --}}
+
     {{ Form::label('title', 'Title') }}
     {{ Form::text('title') }}
-    {{-- $errors->first('price') --}}
+    {{ $errors->first('title') }}
     <br>   
     <br>   
     {{ Form::label('message', 'Message') }}
     {{ Form::textarea('message', null, array('class' => 'form-control', 'rows' => '3')) }}
-    {{-- $errors->first('message') --}}
+    {{ $errors->first('message') }}
     <br>
     <br>   
     {{ Form::label('privacy', 'Posting options:') }}

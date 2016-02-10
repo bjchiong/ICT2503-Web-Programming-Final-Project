@@ -13,6 +13,7 @@ Comment
 
 
 @section('content')
+<!-- profile photo -->
 <div class="col-md-3" id="left"> 
     <div id="photocontainer">
         <div id = "profilebar"></div>
@@ -51,19 +52,20 @@ Comment
         {{ Form::hidden('id', $post->id) }}
         {{ Form::label('name', 'Name') }}
         {{ Form::text('name') }}
-        {{-- $errors->first('name') --}}
+        {{ $errors->first('name') }}
         <br>   
         <br>   
         {{ Form::label('message', 'Message') }}
         {{ Form::textarea('message', null, array('class' => 'form-control', 'rows' => '3')) }}
-        {{-- $errors->first('message') --}}
+        {{ $errors->first('message') }}
         <br>
         <br>   
         {{ Form::submit('Comment', array('class' => 'btn btn-default')) }}
         {{ link_to_route('post.index', 'Cancel', array('class' => 'btn btn-primary')) }}
         <br>
-        {{ Form::close() }}                      
+        {{ Form::close() }}  
           <hr>      
+        {{ $comments->links() }}
     </div>
 </div>
 

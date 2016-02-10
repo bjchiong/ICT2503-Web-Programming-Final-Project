@@ -37,21 +37,19 @@ class CommentController extends \BaseController {
 	public function store()
 	{
 		$input = Input::all();
-//		$v = Validator::make($input, Post::$rules);
-//		if ($v->passes())
-//		{
+		$v = Validator::make($input, Comment::$rules);
+		if ($v->passes())
+		{
 		$comment = new Comment;
 		$comment->name = $input['name'];
 		$comment->message = $input['message'];
 		$id = $input['id'];
 		$comment->post_id = $id;
-//		$post = Post::find(1);
-//       $post->comments()->save($comment);
 		$comment->save();	
 		   return Redirect::to(URL::previous());
-//		} else {
-//		   return Redirect::action('PostController@create')->withErrors($v);
-//		}
+		} else {
+		   return Redirect::to(URL::previous())->withErrors($v);
+		}
 	}
 
 
@@ -64,7 +62,7 @@ class CommentController extends \BaseController {
 	public function show($id)
 	{
 		$post = Post::find($id);
-		$comments = Comment::whereRaw('post_id = ?', array($id))->get();
+		$comments = Comment::whereRaw('post_id = ?', array($id))->paginate(5);
 		return View::make('comment.index', compact('comments', 'post'));		
 	}
 
@@ -78,15 +76,16 @@ class CommentController extends \BaseController {
 	public function edit($id)
 	{
 	$input = Input::all();
-//		$v = Validator::make($input, Post::$rules);
-//		if ($v->passes())
-//		{
+		$v = Validator::make($input, Comment::$rules);
+		if ($v->passes())
+		{
 		$comment = new Comment;
 		$comment->name = $input['name'];
 		$comment->message = $input['message'];
 		$comment->post_id = $id;
 		$comment->save();	
 		   return Redirect::route('comment.show($id)');
+		}
 	}
 
 

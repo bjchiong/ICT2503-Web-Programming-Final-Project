@@ -11,7 +11,8 @@ class PostController extends \BaseController {
 	public function index()
 	{
 		$id = Auth::user()->id;
-		$posts = Post::whereRaw('user_id = ?', array($id))->get();
+		// if auth::check
+		$posts = Post::whereRaw('user_id = ?', array($id))->paginate(5);
 		return View::make('post.index', compact('posts'));
 	}
 
@@ -37,9 +38,9 @@ class PostController extends \BaseController {
 	public function store()
 	{
 		$input = Input::all();
-//		$v = Validator::make($input, Post::$rules);
-//		if ($v->passes())
-//		{
+		$v = Validator::make($input, Post::$rules);
+		if ($v->passes())
+		{
 		$post = new Post;
 		$userid = Auth::user()->id;
 		$post->user_id = Auth::user()->id;
@@ -49,9 +50,9 @@ class PostController extends \BaseController {
 		$post->privacy = $input['privacy'];
 		$post->save();	
 		   return Redirect::action('post.index');
-//		} else {
-//		   return Redirect::action('PostController@create')->withErrors($v);
-//		}
+		} else {
+		   return Redirect::action('post.index')->withErrors($v);
+		}
 	}
 
 
@@ -92,19 +93,19 @@ class PostController extends \BaseController {
 		$post = Post::find($id);
 		
 		$input = Input::all();
-//		$v = Validator::make($input, Post::$rules);
-//		if ($v->passes())
-//		{
+		$v = Validator::make($input, Post::$rules);
+		if ($v->passes())
+		{
 		$post->name = $input['name'];
 		$post->title = $input['title'];
 		$post->message = $input['message'];
 		$post->save();
 		
 		return Redirect::action('post.index', array($post->id));
-//		} else {
+		} else {
 			//Show validation errors
-//			return Redirect::action('PostController@edit',  array($post->id))->withErrors($v);
-//	}
+			return Redirect::action('PostController@edit',  array($post->id))->withErrors($v);
+		}
 	}
 
 	/**

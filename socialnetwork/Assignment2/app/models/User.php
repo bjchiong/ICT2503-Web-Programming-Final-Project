@@ -17,6 +17,12 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
             return $this->hasMany('Post');
         }
 	
+	public static $rules = array( 
+        'email' => 'required|min:5', 
+        'password' => 'required',
+        'fullname' => 'required',
+        'birthday' => 'required'
+    );    
 	/**
 	 * The database table used by the model.
 	 *
